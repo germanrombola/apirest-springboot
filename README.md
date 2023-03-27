@@ -19,12 +19,15 @@ Este servicio recibe dos números, los suma, y le aplica una suba de un porcenta
 Este servicio es a modo de demo, no tiene usos reales. 
 
 ## API endpoint
-### Suma("/v1/suma?num1&num2")
+### Suma("/v1/sumar?num1=5&num2=7")
 
 num1 : primer número a sumar
 num2 : segundo número a sumar
 
 Retorna un jason con metadata informando acerca del resultado, y un objeto con los valores utilizados y el resultado.
+
+## Documentación interna - Swagger
+http://localhost:8080/swagger-ui/index.htm
 
 
 ## Tencologias utilizadas

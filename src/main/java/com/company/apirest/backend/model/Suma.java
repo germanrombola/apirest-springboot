@@ -38,7 +38,7 @@ public class Suma implements Serializable{
 	private Long id;
 	
 	@Column(name = "timestamp")
-	private Long fecha;
+	private Long timestamp;
 	
 	@Column(name = "num1")
 	private Float num1;
@@ -60,11 +60,11 @@ public class Suma implements Serializable{
 		this.id = id;
 	}
 	
-	public Long getFecha() {
-		return fecha;
+	public long getTimestamp() {
+		return timestamp;
 	}
-	public void setFecha(Long fecha) {
-		this.fecha = fecha;
+	public void setTimestamp(Long timestamp) {
+		this.timestamp = timestamp;
 	}
 
 	public Float getResultado() {
